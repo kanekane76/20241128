@@ -1,0 +1,49 @@
+<h1>クレジットカード情報の登録</h1>
+
+<form action="/submit" method="post">
+
+    <p>カード番号:</p>
+    <input type="text" placeholder="1234 5678 9876 5432">カード番号はスペースで区切って入力してください。
+
+
+    <p>カード名義:</p>
+    <input type="text" placeholder="山田 太郎">カードに記載されている名前を入力してください。
+
+
+    <p>有効期限:</p>
+    <select>
+        <option disabled selected>月</option>
+        <option>01</option>
+        <option>02</option>
+        <option>03</option>
+        <option>04</option>
+        <option>05</option>
+        <option>06</option>
+        <option>07</option>
+        <option>08</option>
+        <option>09</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+    </select>
+
+    <select>
+        <option disabled selected>年</option>
+        <option>2025</option>
+        <option>2026</option>
+        <option>2027</option>
+        <option>2028</option>
+        <option>2029</option>
+        <option>2030</option>
+    </select>有効期限はMM/YY形式で入力してください。
+
+    <p>セキュリティコード:</p>
+    <input type="text" placeholder="123">カード裏面に記載されている3桁のセキュリティコードを入力してください。
+
+
+    <input type="checkbox">個人情報の取り扱いについて同意する。
+
+    <br><br>
+
+    <input type="submit" value="登録する">
+</form>

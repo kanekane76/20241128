@@ -1,0 +1,60 @@
+ <h1>お問い合わせフォーム</h1>
+    <form action="/submit" method="post">
+        <p>性: <input type="text"></p>
+        <p>名: <input type="text"></p>
+
+        <p>性（フリガナ）: <input type="text"></p>
+        <p>名（フリガナ）: <input type="text"></p>
+
+        <p>メールアドレス: <input type="email"></p>
+
+        <p>性別:</p>
+        <input type="radio" name="gender"> 男性
+        <input type="radio" name="gender"> 女性
+        <input type="radio" name="gender"> その他
+
+        <p>年代:</p>
+        <select>
+            <option disabled selected>選択してください</option>
+            <option>10代</option>
+            <option>20代</option>
+            <option>30代</option>
+            <option>40代</option>
+            <option>50代</option>
+            <option>60代</option>
+            <option>70代以上</option>
+        </select>
+
+        <p>職業:</p>
+        <select name="occupation">
+            <option disabled selected>選択してください</option>
+            <option>学生</option>
+            <option>会社員</option>
+            <option>自営業</option>
+            <option>無職</option>
+            <option>その他</option>
+        </select>
+
+        <p>ご連絡先電話番号: <input type="tel" name="phone" ></p>
+
+        <p>備考:</p>
+        <textarea rows="5" cols="30"></textarea>
+        
+        <br><br>
+        <input type="submit" value="送信する">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<h2>予約登録フォーム</h2>
+
+<form action="" method="post">
+
+    <p>名前:</p>
+    <input type="text" placeholder="お名前を入力">
+
+
+    <p>電話番号:</p>
+    <input type="tel" placeholder="例: 090-1234-5678">
+
+
+    <p>予約日:</p>
+    <input type="date">
+
+
+    <p>予約時間:</p>
+    <select>
+        <option disabled selected>予約時間を選択してください。</option>
+        <option>午前10時</option>
+        <option>午前11時</option>
+        <option>午後1時</option>
+        <option>午後2時</option>
+        <option>午後3時</option>
+    </select>
+
+
+    <p>人数:</p>
+    <input type="number" min="1" max="10" placeholder="人数を入力">名
+
+
+    <p>特別リクエスト:</p>
+    <textarea rows="4" cols="50" placeholder="アレルギーや食事制限があればご記入ください"></textarea>
+
+
+    <p><input type="submit" value="予約を送信"></p>
+</form>
